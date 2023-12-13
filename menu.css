@@ -1,0 +1,170 @@
+.favoritemenu
+{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 0;
+    border-radius: 5px;
+background: none;
+    color: black;
+   font-size: 30px;
+    padding: 0;
+    
+}
+.favoritemenu:active
+{ box-shadow: rgba(0, 0, 0, 0.404) 0 1px 2px -1px;
+    
+    
+    
+}
+
+
+.menutrigger
+{
+    position: relative;
+    left: 50px;
+    margin-right: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background: none;
+ border: 0;
+ width: 7.5vmin;
+ height: 7.5vmin;
+ border-radius: 10px;
+ 
+}
+.menutriggerpos
+{
+    
+ 
+ 
+ border: 0;
+ width: 7.5vmin;
+ height: 7.5vmin;
+ border-radius: 10px;
+ 
+}
+.menutrigger:active
+{
+    box-shadow: rgba(0, 0, 0, 0.217) 1px 1px 15px 1px;
+}
+
+.kaufenwagen:active
+{
+    box-shadow: rgba(0, 0, 0, 0.217) 1px 1px 15px 1px;
+}
+
+.sitemenu
+{
+margin-right: 50px;
+
+
+
+}
+
+
+.sidemenu
+{
+
+width: 300px;
+height: 550px;
+position:absolute;
+right: 50px;
+border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.343) -4px 10px 15px 1px;
+background-color: aliceblue;
+
+
+
+}
+
+.sidemenuvible
+{
+
+    width: 300px;
+    height: 550px;
+    position:absolute;
+    right: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.343) -4px 10px 15px 1px;
+    background-color: aliceblue;
+    visibility: hidden;
+  
+}
+
+.sidemenu ul
+{
+   
+   display: flex;
+   flex-direction: column;
+   justify-content:flex-start;
+   align-items: flex-start;
+   margin-top: 90px;
+   margin-bottom: 0;
+   
+
+
+}
+
+.sidemenu li
+{margin-top: 20px;
+    display: flex;
+    
+
+    padding: 0;
+list-style-type: none;
+
+}
+.sidemenu a
+{
+    
+   
+  
+    color: black;
+    margin: 0;
+    text-decoration: none;
+     padding: 0 0px 0px 0;
+    
+}
+  
+
+.paymoney
+{
+
+    border-radius: 10px;
+   width: 800px;
+   height: 550px;
+   background-color: aliceblue;
+   position: absolute;
+   top: 0;
+   right: 310px;
+   box-shadow: rgba(0, 0, 0, 0.343) -4px 10px 15px 1px;
+   visibility: hidden;
+
+}
+.paymoneyvible
+{
+
+    border-radius: 10px;
+   width: 800px;
+   height: 550px;
+   background-color: aliceblue;
+   position: absolute;
+   top: 0;
+   right: 310px;
+   box-shadow: rgba(0, 0, 0, 0.343) -4px 10px 15px 1px;
+   
+   
+
+}
+.paymoney ul
+{
+    margin:0 ;
+     width: 100%;
+     height: 50px;
+     
+
+}
+.paymoney a{
+background: 0 ;
+
+}
